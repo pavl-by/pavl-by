@@ -90,6 +90,8 @@ a:focus {
 
 .navbar-custom a {
     color: #fff;
+    background: black;
+    opacity: 0.8;
 }
 
 .navbar-custom .nav li.active {
@@ -107,7 +109,8 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
     outline: 0;
-    background-color: rgba(255,255,255,.3);
+    background-color: black;
+    opacity: 0.5;
 }
 
 @media(min-width:767px) {
@@ -266,8 +269,7 @@ a:focus {
 
 #map {
     width: 100%;
-    height: 200px;
-    margin-top: 100px;
+    height: 400px;
 }
 
 @media(min-width:767px) {
@@ -280,8 +282,7 @@ a:focus {
     }
 
     #map {
-        height: 400px;
-        margin-top: 250px;
+        height: 800px;
     }
 }
 
@@ -364,4 +365,14 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+h2.map {
+    text-align: center;
+}
+
+.row.head {
+    background: black;
+    opacity: 0.75;
+    padding: 1.5em;
 }
